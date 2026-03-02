@@ -1,10 +1,16 @@
 {
-  "updatedAt": "2026-03-01T05:11:25.455Z",
+  "updatedAt": "2026-03-02T05:08:24.349Z",
   "query": "artist:polnocnykot, -rating:explicit",
   "perPage": 50,
   "maxPages": 50,
-  "count": 343,
+  "count": 344,
   "images": [
+    {
+      "id": 3774786,
+      "thumb": "https://derpicdn.net/img/2026/3/1/3774786/thumb.jpg",
+      "full": "https://derpicdn.net/img/view/2026/3/1/3774786.jpg",
+      "link": "https://derpibooru.org/images/3774786"
+    },
     {
       "id": 3773717,
       "thumb": "https://derpicdn.net/img/2026/2/27/3773717/thumb.jpg",
