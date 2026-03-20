@@ -53,6 +53,8 @@ function normalize(img) {
         thumb: img.representations?.thumb,
         full: img.representations?.full,
         link: `https://derpibooru.org/images/${img.id}`,
+        width: img.width ?? null,
+        height: img.height ?? null,
     };
 }
 
@@ -83,7 +85,6 @@ async function main() {
             break;
         }
 
-        // Если API вернул меньше, чем per_page — обычно это последняя страница
         if (images.length > 0 && images.length < PER_PAGE) {
             console.log(`[derpi] stop: last page (returned < per_page) at page ${page}`);
             break;
